@@ -10,7 +10,7 @@
         <nav>
             <ul>
                 <li>
-                    <a href="/movie">Home</a>
+                    <a href="/movie">Movies</a>
                 </li>
                 <li>
                     <a href="#">
