@@ -41,3 +41,7 @@ main ol li a {
   text-decoration: none;
 }
 
+main ol li a:hover {
+  color: #fff;
+}
+
