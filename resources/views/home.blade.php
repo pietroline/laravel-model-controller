@@ -4,24 +4,26 @@
 
 @section("content")
 
-    <h1>Benvenuto nel nostro sito dei film </h1>
+    <main>
+        <h1>Benvenuto nel nostro sito dei film </h1>
 
-    <nav>
-        <ul>
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <a href="#">
-                    Chi siamo
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    Dove siamo
-                </a>
-            </li>
-        </ul>
-    </nav>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/movie">Home</a>
+                </li>
+                <li>
+                    <a href="#">
+                        Chi siamo
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Dove siamo
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </main>
 
 @endsection

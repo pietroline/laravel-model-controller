@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: #bebebe;
+  color: #000;
+  height: 100vh;
+}
+
+main nav {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+main nav ul li {
+  display: inline;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+main nav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+

@@ -4,14 +4,20 @@
 
 @section("content")
 
-    <h1>Lista dei film</h1>
+    <main>
+        <div class="prev">
+            <a href="/">Cliccami per tornare alla pagina precedente</a>
+        </div>
 
-    <ul>
-        @foreach ($movies as $key => $movie )
-            <li>
-                <a href="#">{{$key+1}} - {{$movie["title"]}} - {{$movie["original_title"]}} - {{$movie["nationality"]}} - {{$movie["date"]}} - {{$movie["vote"]}}</a>
-            </li>
-        @endforeach
-    </ul>
+        <h1>Lista dei film</h1>
+
+        <ol>
+            @foreach ($movies as $movie )
+                <li>
+                    <a href="#">{{$movie["title"]}} - {{$movie["original_title"]}} - {{$movie["nationality"]}} - {{$movie["date"]}} - {{$movie["vote"]}}</a>
+                </li>
+            @endforeach
+        </ol>
+    </main>
 
 @endsection

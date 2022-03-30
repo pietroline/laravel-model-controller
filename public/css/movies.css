@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: #bebebe;
+  color: #000;
+  height: 100vh;
+  padding: 2rem;
+}
+
+main .prev {
+  padding: 1rem 0;
+}
+
+main .prev a {
+  color: #000;
+  text-decoration: none;
+}
+
+main .prev a:hover {
+  color: #fff;
+}
+
+main h1 {
+  margin: 2rem 0;
+}
+
+main ol {
+  margin: 3rem;
+}
+
+main ol li {
+  text-decoration: none;
+}
+
+main ol li a {
+  color: #000;
+  text-decoration: none;
+}
+
